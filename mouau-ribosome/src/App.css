@@ -1,0 +1,40 @@
+body {
+  background-color: #f4f4f4;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+.navbarContainer{
+display:flex;
+justify-content: space-evenly;
+margin-left: 0;
+margin-right: 0;
+}
+.ml-auto{
+  display:flex;
+  justify-content: space-evenly;
+  margin-left: 0;
+  margin-right: -190px;
+  flex: 1;
+}
+
+.peptides {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #333;
+}
+.main {
+  text-align: center;
+  margin-top: 100px;
+}
+.btn-danger {
+  margin-top: 20px; 
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.form-control{
+  width: 60vw;
+  margin-top: 20px;
+}
